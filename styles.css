@@ -76,12 +76,32 @@ h2.title {
   padding-bottom: 10px;
 }
 
+h2.title2 {
+  text-align: left;
+  top: -25%;
+  margin: 0% 0% 10% 10%;
+  padding-bottom: 30px;
+}
+
 p.body-paragraph {
   position: relative;
   font-size: 14px;
   text-align: center;
-  top: -30px;
   padding: 0px 8px;
+}
+
+p.body-paragraph2 {
+  position: relative;
+  font-size: 14px;
+  text-align: center;
+  bottom: 22px;
+}
+
+p.body-paragraph3{
+  position: relative;
+  font-size: 14px;
+  text-align: center;
+  padding: 0 15%;
 }
 
 button.more-button1 {
@@ -171,6 +191,6 @@ section.small-line {
   height: 10%;
   position:absolute;
   left: 22%;
-  top: 80%;
+  top: 81.5%;
   bottom: 5%;
 }

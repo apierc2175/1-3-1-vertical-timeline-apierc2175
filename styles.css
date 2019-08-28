@@ -105,3 +105,35 @@ section.move {
   position: relative;
   padding-right: 60%;
 }
+
+i.fai-left::after {
+  content: "";
+
+  height: 0;
+  width: 0;
+
+  border-top: solid 15px #fff;
+
+  border-bottom: solid 15px transparent;
+  border-right: solid 15px transparent;
+
+  position: absolute;
+  top: 50%;
+  right: 300%;
+}
+
+i.fai-right::after {
+  content: "";
+
+  height: 0;
+  width: 0;
+
+  border-top: solid 15px #fff;
+
+  border-left: solid 15px transparent;
+  border-bottom: solid 15px transparent;
+
+  position: absolute;
+  top: 25%;
+  right: -290%;
+}

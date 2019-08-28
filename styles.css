@@ -1,3 +1,40 @@
 *{
   list-style-type: none;
 }
+
+div.line {
+  border-left: 6px solid #44f;
+  height: 90%;
+  position:absolute;
+  left: 50%;
+  top: 5%;
+  bottom: 5%;
+}
+
+div:not(.line) {
+  height: 150px;
+  width: 200px;
+  background-color: #555;
+  border: 2px solid black;
+  margin-top: 5%;
+}
+
+div.absolute-right {
+  margin-left: 55%;
+}
+
+div.absolute-left-1 {
+  left: auto;
+  right: 20px;
+  text-align: right;
+}
+
+div.absolute-left-2 {
+  left: auto;
+  right: 20px;
+  text-align: right;
+}
+
+div.absolute-left {
+  margin-left: 30%;
+}

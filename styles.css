@@ -18,7 +18,7 @@ div:not(.line) {
   height: 220px;
   width: 300px;
   background-color: #fff;
-  margin-top: 1%;
+  margin-top: .5%;
   -moz-box-shadow:    3px 3px 3px 3px #333;
   -webkit-box-shadow: 3px 3px 3px 3px #333;
   box-shadow:         3px 3px 3px 3px #333;
@@ -84,11 +84,20 @@ p.body-paragraph {
   padding: 0px 8px;
 }
 
-button.more-button {
+button.more-button1 {
   position: relative;
   background-color: #0C618C;
   border: none;
   cursor: pointer;
+}
+
+button.more-button2 {
+  position: relative;
+  background-color: #0C618C;
+  border: none;
+  cursor: pointer;
+  top: -35px;
+  margin-left: 10px;
 }
 
 span.more-button {
@@ -148,4 +157,20 @@ img {
 section.up {
   position: relative;
   top: -13.5%;
+}
+
+h2.card {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: #fff;
+}
+
+section.small-line {
+  border-left: 6px solid #0C618C;
+  height: 10%;
+  position:absolute;
+  left: 22%;
+  top: 80%;
+  bottom: 5%;
 }

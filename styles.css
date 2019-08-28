@@ -194,3 +194,16 @@ section.small-line {
   top: 81.5%;
   bottom: 5%;
 }
+
+p.date1 {
+  position: relative;
+  top: -98%;
+  right: -58%;
+  background-color: #FC435B;
+  width: 40%;
+  height: 12%;
+  padding: 1%;
+  padding-top: 5%;
+  text-align: center;
+  color: #fff;
+}

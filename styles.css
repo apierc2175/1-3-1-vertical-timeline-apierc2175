@@ -3,7 +3,7 @@
 }
 
 div.line {
-  border-left: 6px solid #44f;
+  border-left: 6px solid #0C618C;
   height: 90%;
   position:absolute;
   left: 50%;
@@ -37,4 +37,27 @@ div.absolute-left-2 {
 
 div.absolute-left {
   margin-left: 30%;
+}
+
+/*makes circle background for fa icons */
+i.circle-icon {
+  background: #0C618C;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  vertical-align: middle;
+  padding: 5px;
+  color: #fff;
+}
+
+i.fai-left {
+  position: relative;
+  left: 36%;
+}
+
+i.fai-right {
+  position: relative;
+  right: 36%;
 }

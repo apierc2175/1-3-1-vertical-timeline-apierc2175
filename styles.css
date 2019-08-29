@@ -207,3 +207,31 @@ p.date1 {
   text-align: center;
   color: #fff;
 }
+
+p.date2 {
+  position: relative;
+  top: -54%;
+  right: -58%;
+
+  background-color: #FC435B;
+  width: 40%;
+  height: 12%;
+  padding: 1%;
+  padding-top: 5%;
+  text-align: center;
+  color: #fff;
+}
+
+p.date3 {
+  position: relative;
+  top: -90%;
+  right: -58%;
+
+  background-color: #FC435B;
+  width: 40%;
+  height: 12%;
+  padding: 1%;
+  padding-top: 5%;
+  text-align: center;
+  color: #fff;
+}

@@ -235,3 +235,24 @@ p.date3 {
   text-align: center;
   color: #fff;
 }
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: rotate(90deg);
+    opacity: .5;
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+    opacity: 1;
+  }
+}
+
+.rotate:not(.fas):hover {
+  -webkit-animation: rotate .6s;
+  -moz-animation: rotate .6s;
+  animation: rotate .6s;
+}
